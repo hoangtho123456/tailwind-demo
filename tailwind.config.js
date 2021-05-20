@@ -2,6 +2,7 @@ module.exports = {
 	mode: 'jit',
 	purge: {
 		content: [
+			'!node_modules/**/*',
 			'**/*.html',
 			// './src/**/*.php',
 			// './template-parts/**/*.php',
