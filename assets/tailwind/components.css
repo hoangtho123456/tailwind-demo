@@ -1,0 +1,82 @@
+/*.c-test {
+	color: white;
+	@add-mixin respond-to 767px { color: red; }
+}*/
+input[type=checkbox]:checked + svg {
+	display: block;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.c-xl-w1 {
+	@add-mixin respond-toSP 1300px { max-width: 1260px; }
+}
+.c-line1 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 2;
+	display: -webkit-box;
+}
+
+/*slick*/
+.c-slider-flex-1 {
+	.slick-res:not(.slick-initialized) > *:not(:first-child) {
+		display: none;
+	}
+	&.slick-slider:not(.slick-vertical) .slick-track {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	&.slick-slider:not(.slick-vertical) .slick-track .slick-slide {
+		float: none;
+		display: flex;
+		height: inherit;
+	}
+}
+.c-slider2 {
+	.slick-current>div { border: 1px solid green; }
+}
+.c-slider3 {
+	.slick-dots {
+		/* position: absolute;
+		bottom: -44px; */
+		position: relative;
+		display: block;
+		list-style: none;
+		text-align: center;
+		button {
+			width: 10px;
+			height: 10px;
+			font-size: 0;
+			line-height: 0;
+			display: block;
+			cursor: pointer;
+			border: 1px solid #cacaca;
+			border-radius: 100%;
+		}
+		li {
+			position: relative;
+			display: inline-block;
+			margin-right: 12px;
+		}
+	}
+	.slick-active {
+		button {
+			/* position: relative;
+			top: 2px; */
+			background: $green;
+			border-color: #cacaca;
+		}
+	}
+	&--no-dots {
+		.slick-dots { display: none; }
+	}
+}

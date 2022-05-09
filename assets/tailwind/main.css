@@ -1,7 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
-/*.test {
-	color: white;
-}*/
+@import "vars.css";
+@import "functions.css";
+@import "default.css";
+@import "utilities.css";
+@import "components.css";
+/* @import "privates.css"; */
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */

@@ -1,0 +1,11 @@
+@define-mixin respond-to $media {
+  @media only screen and (max-width: $media) {
+    @mixin-content;
+  }
+}
+
+@define-mixin respond-toSP $media {
+  @media only screen and (min-width: $media) {
+    @mixin-content;
+  }
+}

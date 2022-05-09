@@ -1,0 +1,363 @@
+[class*="tRes"] {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+[class*="tRes"]:before {
+  content: "";
+  padding-top: 100%;
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+
+[class*="tRes"] > img, [class*="tRes"] > video {
+  z-index: 1;
+  -o-object-fit: cover;
+  object-fit: cover;
+  position: absolute;
+  width: 100% !important;
+  height: 100%  !important;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+  [class*="tRes"] > img, [class*="tRes"] > video {
+    height: 100%;
+    max-width: none;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+}
+
+[class*="tRes"] > video {
+  z-index: 3;
+}
+
+[class*="tRes"] > iframe {
+  display: block;
+  border: none;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.tRes_16_9:before {
+  padding-top: 56.25%;
+}
+
+.tRes_4_3:before {
+  padding-top: 75%;
+}
+
+.tRes_2_1:before {
+  padding-top: 50%;
+}
+
+.tRes_1_2:before {
+  padding-top: 200%;
+}
+
+.tRes_30:before {
+  padding-top: 30%;
+}
+
+.tRes_31:before {
+  padding-top: 31%;
+}
+
+.tRes_32:before {
+  padding-top: 32%;
+}
+
+.tRes_33:before {
+  padding-top: 33%;
+}
+
+.tRes_34:before {
+  padding-top: 34%;
+}
+
+.tRes_35:before {
+  padding-top: 35%;
+}
+
+.tRes_36:before {
+  padding-top: 36%;
+}
+
+.tRes_37:before {
+  padding-top: 37%;
+}
+
+.tRes_38:before {
+  padding-top: 38%;
+}
+
+.tRes_39:before {
+  padding-top: 39%;
+}
+
+.tRes_40:before {
+  padding-top: 40%;
+}
+
+.tRes_41:before {
+  padding-top: 41%;
+}
+
+.tRes_42:before {
+  padding-top: 42%;
+}
+
+.tRes_43:before {
+  padding-top: 43%;
+}
+
+.tRes_44:before {
+  padding-top: 44%;
+}
+
+.tRes_45:before {
+  padding-top: 45%;
+}
+
+.tRes_46:before {
+  padding-top: 46%;
+}
+
+.tRes_47:before {
+  padding-top: 47%;
+}
+
+.tRes_48:before {
+  padding-top: 48%;
+}
+
+.tRes_49:before {
+  padding-top: 49%;
+}
+
+.tRes_50:before {
+  padding-top: 50%;
+}
+
+.tRes_51:before {
+  padding-top: 51%;
+}
+
+.tRes_52:before {
+  padding-top: 52%;
+}
+
+.tRes_53:before {
+  padding-top: 53%;
+}
+
+.tRes_54:before {
+  padding-top: 54%;
+}
+
+.tRes_55:before {
+  padding-top: 55%;
+}
+
+.tRes_56:before {
+  padding-top: 56%;
+}
+
+.tRes_57:before {
+  padding-top: 57%;
+}
+
+.tRes_58:before {
+  padding-top: 58%;
+}
+
+.tRes_59:before {
+  padding-top: 59%;
+}
+
+.tRes_60:before {
+  padding-top: 60%;
+}
+
+.tRes_61:before {
+  padding-top: 61%;
+}
+
+.tRes_62:before {
+  padding-top: 62%;
+}
+
+.tRes_63:before {
+  padding-top: 63%;
+}
+
+.tRes_64:before {
+  padding-top: 64%;
+}
+
+.tRes_65:before {
+  padding-top: 65%;
+}
+
+.tRes_66:before {
+  padding-top: 66%;
+}
+
+.tRes_67:before {
+  padding-top: 67%;
+}
+
+.tRes_68:before {
+  padding-top: 68%;
+}
+
+.tRes_69:before {
+  padding-top: 69%;
+}
+
+.tRes_70:before {
+  padding-top: 70%;
+}
+
+.tRes_71:before {
+  padding-top: 71%;
+}
+
+.tRes_72:before {
+  padding-top: 72%;
+}
+
+.tRes_73:before {
+  padding-top: 73%;
+}
+
+.tRes_74:before {
+  padding-top: 74%;
+}
+
+.tRes_75:before {
+  padding-top: 75%;
+}
+
+.tRes_76:before {
+  padding-top: 76%;
+}
+
+.tRes_77:before {
+  padding-top: 77%;
+}
+
+.tRes_78:before {
+  padding-top: 78%;
+}
+
+.tRes_79:before {
+  padding-top: 79%;
+}
+
+.tRes_80:before {
+  padding-top: 80%;
+}
+
+.tRes_81:before {
+  padding-top: 81%;
+}
+
+.tRes_82:before {
+  padding-top: 82%;
+}
+
+.tRes_83:before {
+  padding-top: 83%;
+}
+
+.tRes_84:before {
+  padding-top: 84%;
+}
+
+.tRes_85:before {
+  padding-top: 85%;
+}
+
+.tRes_86:before {
+  padding-top: 86%;
+}
+
+.tRes_87:before {
+  padding-top: 87%;
+}
+
+.tRes_88:before {
+  padding-top: 88%;
+}
+
+.tRes_89:before {
+  padding-top: 89%;
+}
+
+.tRes_90:before {
+  padding-top: 90%;
+}
+
+.tRes_91:before {
+  padding-top: 91%;
+}
+
+.tRes_92:before {
+  padding-top: 92%;
+}
+
+.tRes_93:before {
+  padding-top: 93%;
+}
+
+.tRes_94:before {
+  padding-top: 94%;
+}
+
+.tRes_95:before {
+  padding-top: 95%;
+}
+
+.tRes_96:before {
+  padding-top: 96%;
+}
+
+.tRes_97:before {
+  padding-top: 97%;
+}
+
+.tRes_98:before {
+  padding-top: 98%;
+}
+
+.tRes_99:before {
+  padding-top: 99%;
+}
+
+/*toggle class*/
+.toggleClass {
+  position: relative;
+}
+.toggleClass > .content {
+  display: none;
+  position: absolute;
+}
+.toggleClass.active > .content {
+  display: block;
+}
